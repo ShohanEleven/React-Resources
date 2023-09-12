@@ -3,6 +3,7 @@ import Counter from './Counter';
 import Team from './Team';
 import Users from './Users';
 import Friends from './Friends';
+import Run from './run';
 
 function App() {
 
@@ -24,6 +25,8 @@ function App() {
 
       <Friends></Friends>
 
+      <Run></Run>
+
       <Users></Users>
 
       <Team></Team>
@@ -34,7 +37,7 @@ function App() {
       <button onClick={handleClick}>Click Me</button>
       <button onClick={handleClick2}>Click2</button>
       <button onClick={() => { alert('third clicked') }}>third</button>
-      {/* vejailla  */}
+      {/* jhamela  */}
       <button onClick={() => addToFive(3)}>Four</button>
     </>
   )
